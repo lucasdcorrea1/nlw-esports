@@ -1,60 +1,39 @@
-<p align="center">
-<img src="./assets/img/nlw-esports-logo.svg" alt="Next Level Week Esports Logo"/></p>
+<h1 align='center'>
+   🎮 NLW E-sports
+</h1>
 
-<br>
+## 📃 Sobre o projeto
 
-The evolved version of the **Esports** project on the [Next Level Week](https://lp.rocketseat.com.br/nlw) by Rocketseat.
+Aplicação focada em unir jogadores de diversos jogos. Você pode usá-lo para encontrar um duo ou até mesmo um squad completo para jogar o seu game favorito.
 
-The web version is deployed on Vercel here:
+<div display="flex" align="center">
+   <img src="https://i.imgur.com/U9RzOvt.png" />
+</div>
 
- https://nlw-esports-ignite.vercel.app/
+### Funcionalidades
 
-The server is deployed on Fly. You can test it here: 
+- Listar anúncios de diversos jogadores.
+- Postar um anúncio para encontrar jogadores. 
+- Responsivo.
 
-https://nlw-esports.fly.dev/games
+## 🚀 Tecnologias
 
-<hr>
-<br>
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Node.js](https://nodejs.org/en/)
+- [Prisma](https://www.prisma.io/)
+- [SQLite](https://www.sqlite.org/index.html)
 
-  - [Description](#description)
-  - [Stack and tools](#stack-and-tools)
-  - [Quickstart](#quickstart)
+## 💻 Clonando projeto
 
-<br>
-
-## Description
-
-The project is called *Find your Duo*.
-It is a platform to find the perfect partner to play your favorite game together, by connecting your Twitch.tv account.
-
-<p align="center">
-<img src="./assets/img/app-preview.jpeg" alt="Next Level Week Esports Logo"/></p>
-
-## Stack and tools
-* [Node.js](https://nodejs.org/en/)
-* [Prisma](https://www.prisma.io/)
-* [React](https://reactjs.org/)
-* [React Native](https://reactnative.dev/)
-* [Expo](https://expo.dev/)
-* [Figma](https://www.figma.com/)
-* [RadixUI](https://www.radix-ui.com/)
-
-
-## Quickstart
-
-### Server
-
-First, create a new ``.env`` file on the root directory, using the `.env.example` template as base.
-
-Then, to create the local db run:
-```sh
-$ npm run db:migrate
+```bash
+$ git clone https://github.com/lucasdcorrea1/nlw-esports.git && cd nlwesports
 ```
 
-After that, to start the server, run:
-```sh
+```bash
+# Instalando dependências
+$ npm i
+# Rodando o projeto
 $ npm run dev
 ```
-
-
-
